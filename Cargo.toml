@@ -181,7 +181,7 @@ pattern = []
 
 # For very fast multi-prefix literal matching.
 [dependencies.aho-corasick]
-version = "1.0.0"
+version = "1.1.5"
 optional = true
 default-features = false
 
@@ -210,7 +210,7 @@ quickcheck = { version = "1.0.3", default-features = false }
 # To check README's example
 doc-comment = "0.3"
 # For easy error handling in integration tests.
-anyhow = "1.0.69"
+anyhow = "1.0.104"
 # A library for testing regex engines.
 regex-test = { path = "regex-test", version = "0.1.0" }
 
